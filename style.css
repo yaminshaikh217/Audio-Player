@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(162, 211, 255);
+}
+
+.btn {
+  padding: 7px 15px;
+  margin-right: 10px;
+  border: 0;
+  border-radius: 3px;
+  text-transform: capitalize;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 30%);
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
