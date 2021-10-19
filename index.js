@@ -13,6 +13,7 @@ sounds.forEach((currentValue) => {
 
 
         document.getElementById(currentValue).play()
+        console.log(document.getElementById(currentValue));
 
 
     })
@@ -26,6 +27,7 @@ function stopAudio() {
         const audios = document.getElementById(currentValue)
         audios.pause()
         audios.currentTime = 0  // its resetting the audio
+        console.log(document.getElementById(currentValue));
     })
 
 }
